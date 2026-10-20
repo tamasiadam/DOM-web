@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect x="-1000" y="-1000" width="2400" height="2250" fill="#eef4fb"/>
+  <g fill="#fffdf6" stroke="#5b6b7f" stroke-width="4" stroke-linejoin="round">
+    <!-- nagy csont -->
+    <path d="M70 95 a25 25 0 1 1 30 -30 L300 165 a25 25 0 1 1 30 30 a25 25 0 1 1 -30 30 L100 125 a25 25 0 1 1 -30 -30z"/>
+  </g>
+  <g fill="#5b6b7f" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle">
+    <text x="320" y="70" font-size="40">206</text>
+    <text x="320" y="95" font-size="16">csont</text>
+  </g>
+</svg>

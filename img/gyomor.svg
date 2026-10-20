@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect x="-1000" y="-1000" width="2400" height="2250" fill="#fdf6e8"/>
+  <path d="M170 20 L170 70 Q120 80 120 140 Q125 215 220 215 Q300 210 290 150 Q280 120 250 135 Q230 145 230 120 L230 20z"
+        fill="#f4a261" stroke="#b5652a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M145 160 Q200 190 270 165 L268 180 Q230 205 190 200 Q150 192 145 160z" fill="#e9d64a" opacity="0.85"/>
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="180" cy="175" r="5"/><circle cx="215" cy="185" r="4"/><circle cx="245" cy="172" r="5"/>
+  </g>
+  <text x="330" y="80" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#b5652a" text-anchor="middle">pH 1–2</text>
+</svg>
