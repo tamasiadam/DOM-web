@@ -121,7 +121,6 @@ function navbarKeszites() {
   return nav;
 }
 
-// ===== Fejléc =====
 function fejlecKeszites() {
   const header = elemKeszites("header", "fejlec");
   header.id = "fejlec";
@@ -138,7 +137,6 @@ function fejlecKeszites() {
   return header;
 }
 
-// ===== Egy cikk (bejegyzés) =====
 function cikkKeszites(cikk) {
   const article = elemKeszites("article", "cikk");
   article.id = cikk.id;
@@ -164,43 +162,18 @@ function cikkKeszites(cikk) {
   return article;
 }
 
-// ===== Lábléc =====
 function lablecKeszites() {
   const footer = elemKeszites("footer", "lablec");
   footer.appendChild(
     elemKeszites(
       "p",
       "",
-      "© " + new Date().getFullYear() + " Az emberi test – iskolai projekt",
+      "© " + new Date().getFullYear() + " Emberi Tudomány ",
     ),
   );
   return footer;
 }
 
-// ===== Aktív menüpont kiemelése görgetéskor =====
-function aktivMenuFigyelese() {
-  const linkek = document.querySelectorAll(".menu a");
-
-  const figyelo = new IntersectionObserver(
-    (bejegyzesek) => {
-      bejegyzesek.forEach((b) => {
-        if (b.isIntersecting) {
-          linkek.forEach((link) => {
-            link.classList.toggle(
-              "aktiv",
-              link.getAttribute("href") === "#" + b.target.id,
-            );
-          });
-        }
-      });
-    },
-    { rootMargin: "-40% 0px -55% 0px" },
-  );
-
-  document.querySelectorAll(".cikk").forEach((cikk) => figyelo.observe(cikk));
-}
-
-// ===== Az oldal felépítése =====
 function oldalFelepitese() {
   document.body.appendChild(navbarKeszites());
   document.body.appendChild(fejlecKeszites());
