@@ -186,7 +186,6 @@ function oldalFelepitese() {
 
   document.body.appendChild(lablecKeszites());
 
-  aktivMenuFigyelese();
 }
 
 oldalFelepitese();
